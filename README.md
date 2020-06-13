@@ -29,7 +29,7 @@ To create a redirect from one GitHub Pages URL to another:
 
 You renamed your Pages repository from `foo` to `bar` and need to redirect `username.github.io/foo` to `username.github.io/bar`.
 
-Create a new markdown file named `foo.md` with the following contents:
+From your Pages repository (`github.com/username/username.github.io`), create a new markdown file named `foo.md` with the following contents:
 
    ```markdown
    ---
