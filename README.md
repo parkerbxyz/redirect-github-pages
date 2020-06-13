@@ -6,7 +6,7 @@ This template repository allows you to quickly and easily redirect GitHub Pages 
 
 To create a redirect, you must first create a user or organization GitHub Pages site repository from this template:
 
-1. Above the file list, click [**Use this template**](https://github.com/parkerbxyz/redirect-github-pages/generate).
+1. Click [**Use this template**](https://github.com/parkerbxyz/redirect-github-pages/generate).
 1. Use the **Owner** drop-down menu, and select the account you want to own the repository.
 1. Name the repository `username.github.io`, where `username` is your username (or organization name) on GitHub.
 1. Click **Create repository from template**.
