@@ -39,7 +39,13 @@ From your account Pages site repository (`github.com/username/username.github.io
 
 ## Running locally
 
-Install dependencies and run the server locally:
+Install dependencies:
+
+```sh
+script/bootstrap
+```
+
+Run the server locally:
 
 ```sh
 script/server
