@@ -1,9 +1,0 @@
-#!/usr/bin/env bash
-#
-# Update application to run for its current checkout.
-
-set -e
-
-cd "$(dirname "$0")/.."
-
-script/bootstrap
