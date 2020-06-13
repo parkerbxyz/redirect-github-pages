@@ -4,7 +4,7 @@ This template repository allows you to quickly and easily redirect GitHub Pages 
 
 ## Using this template
 
-To create a redirect, you must first create a user or organization GitHub Pages site repository from this template:
+To create a redirect, you must first create a user or organization GitHub Pages site from this template:
 
 1. Click [**Use this template**](https://github.com/parkerbxyz/redirect-github-pages/generate).
 1. Use the **Owner** drop-down menu, and select the account you want to own the repository.
@@ -15,13 +15,17 @@ To create a redirect, you must first create a user or organization GitHub Pages 
 
 To create a redirect from one GitHub Pages URL to another:
 
-1. Create a new markdown file with the same name as old Pages repository.
+1. Create a new markdown file with the same name as old Pages repository you'd like to redirect _from_.
+
+   ```markdown
+   old-name.md
+   ```
 
 1. Add the following to the top of the new markdown file:
 
    ```markdown
    ---
-   redirect_to: <redirect-url>
+   redirect_to: <new-repo-url>
    ---
    ```
 
