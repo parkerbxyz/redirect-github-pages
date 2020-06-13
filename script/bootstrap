@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+#
+# Resolve all dependencies that the application requires to run.
+
+set -e
+
+cd "$(dirname "$0")/.."
+
+bundle install
