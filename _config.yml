@@ -1,6 +1,16 @@
 plugins:
   - jekyll-redirect-from
 
+# In Jekyll 3.x, the exclude list replaces defaults (not merged).
+# Include Jekyll's default exclusions plus our custom ones.
 exclude:
+  - .jekyll-cache/
+  - .sass-cache/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
   - script/
-  - vendor/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
