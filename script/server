@@ -6,8 +6,8 @@ set -e
 
 cd "$(dirname "$0")/.."
 
-# Run bootstrap if Gemfile.lock doesn't exist
-if [ ! -f Gemfile.lock ]; then
+# Run bootstrap if vendor/bundle doesn't exist
+if [ ! -d vendor/bundle ]; then
   echo "Running bootstrap first..."
   script/bootstrap
 fi
