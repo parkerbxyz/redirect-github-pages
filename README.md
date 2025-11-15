@@ -15,7 +15,7 @@ To create a redirect, you must first create a user or organization GitHub Pages 
 
 To create a redirect from one GitHub Pages URL to another:
 
-1. Create a new markdown file with the same name as the old Pages repository you'd like to redirect _from_ (e.g., `foo.md`).
+1. Create a new markdown file with the same name as the old Pages repository you'd like to redirect _from_ (e.g., `old-repo.md`).
 
 1. Add the following to the top of the new markdown file:
 
