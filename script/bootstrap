@@ -1,9 +1,19 @@
 #!/usr/bin/env bash
 #
-# Resolve all dependencies that the application requires to run.
+# Set up dependencies and prepare the application to run.
 
 set -e
 
 cd "$(dirname "$0")/.."
 
+# Create Gemfile if it doesn't exist
+if [ ! -f Gemfile ]; then
+  echo "Creating Gemfile..."
+  cat > Gemfile << 'EOF'
+source "https://rubygems.org"
+gem "github-pages", group: :jekyll_plugins
+EOF
+fi
+
+echo "Installing dependencies..."
 bundle install
