@@ -1,9 +1,10 @@
 #!/usr/bin/env bash
 #
-# Resolve all dependencies that the application requires to run.
+# Set up dependencies and prepare the application to run.
 
 set -e
 
 cd "$(dirname "$0")/.."
 
+bundle config set --local path vendor/bundle
 bundle install
