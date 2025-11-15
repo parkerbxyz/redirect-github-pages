@@ -55,6 +55,6 @@ If you want to test locally, you'll need Ruby and Bundler installed. Then run:
 script/server
 ```
 
-This will automatically create a Gemfile, install dependencies, and start the Jekyll server with live reload.
+This will install dependencies and start the Jekyll server with live reload.
 
 However, for this simple use case, you can just push to GitHub and let GitHub Pages build it automatically.
