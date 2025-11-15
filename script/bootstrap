@@ -6,4 +6,5 @@ set -e
 
 cd "$(dirname "$0")/.."
 
-bundle install --path vendor/bundle
+bundle config set --local path vendor/bundle
+bundle install
