@@ -43,7 +43,7 @@ From your account Pages site repository (`github.com/username/username.github.io
 
 - Uses the `jekyll-redirect-from` plugin (built into GitHub Pages).
 - GitHub automatically builds Jekyll sites when you push.
-- No Gemfile or local Ruby installation needed.
+- No Ruby installation needed for GitHub Pages deployment.
 - Simple frontmatter syntax for easy configuration.
 - Generates HTML meta refresh redirects with SEO-friendly canonical links.
 
