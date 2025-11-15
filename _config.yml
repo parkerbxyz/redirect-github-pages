@@ -4,13 +4,14 @@ plugins:
 # In Jekyll 3.x, the exclude list replaces defaults (not merged).
 # Include Jekyll's default exclusions plus our custom ones.
 exclude:
-  - .jekyll-cache/
   - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
   - Gemfile
   - Gemfile.lock
   - node_modules/
-  - script/
   - vendor/bundle/
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+  - script/
